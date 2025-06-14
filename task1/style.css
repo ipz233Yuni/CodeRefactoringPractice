@@ -4,4 +4,10 @@
     right: 10px;
     font-size: 24px;
     font-weight: bold;
+    font-family: 'Courier New', monospace;
+    color: #333;
+}
+.error {
+    color: red;
+    font-size: 14px;
 }

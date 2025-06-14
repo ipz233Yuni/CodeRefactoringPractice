@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+<div class="controls">
+    <button onclick="animation.addBlock()">Add Block</button>
+    <button onclick="animation.removeBlock()">Remove Block</button>
+    <button onclick="animation.togglePause()">Pause/Resume</button>
+    <button onclick="animation.changeSpeed()">Change Speed</button>
+</div>
+
+<div class="stats">
+    <div>Blocks: <span id="blockCount">0</span></div>
+    <div>Speed: <span id="speedValue">2</span>px/frame</div>
+    <div>FPS: <span id="fpsValue">0</span></div>
+</div>
+
 </body>
 <script defer src="script.js"></script>
 </html>
